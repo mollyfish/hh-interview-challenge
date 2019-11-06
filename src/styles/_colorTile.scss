@@ -1,0 +1,14 @@
+.color-tile {
+  display: block;
+  height: 250px;
+  width: 200px;
+  margin: 0 2rem 1.5rem 0;
+  box-shadow: 1px 1px 3px $theme-light;
+  border: 1px solid $theme-white;
+  border-radius: 5px;;
+  background-color: $theme-medium;
+
+  .swatch-label {
+    margin: 1rem;
+  }
+}

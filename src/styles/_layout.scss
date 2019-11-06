@@ -1,0 +1,29 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0
+}
+
+.page-wrapper {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.page-wrapper header {
+  flex: 0 1 auto;
+}
+
+.page-wrapper .content-wrapper {
+  flex: 1 1 auto;
+  display: flex;
+}
+
+nav {
+  flex: 0 1 20%;
+}
+
+main {
+  flex: 0 1 80%;
+}

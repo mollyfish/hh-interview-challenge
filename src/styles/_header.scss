@@ -1,0 +1,14 @@
+header {
+  padding: 1rem;
+  background-color: $theme-dark;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  input {
+    margin-right: 4rem;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+  }
+}
